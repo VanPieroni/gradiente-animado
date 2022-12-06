@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanPieroni</title>
+</head>
+
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    .text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 5rem;
+        color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+        padding: 2rem 4rem;
+    }
+
+    .gradient{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(45deg, #794C74, #C56183, #FADCAA, #17706E);
+        background-size: 300% 300%;
+        animation: colors 15s ease infinite;
+    }
+
+    @keyframes colors{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+
+</style>
+<body class="gradient">
+    <h1 class="text">Vanessa Pieroni</h1>    
+</body>
+</html>
